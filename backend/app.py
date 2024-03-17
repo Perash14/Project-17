@@ -11,7 +11,7 @@ chat_DAL = ChatDB()
 def insert_user():
     try:
         response = request.get_json()
-        userid =  chat_DAL.insert_user(response['username'])
+        userid =  chat_DAL.insert_user(response['username'],response['room_number'])
         return jsonify(userid)
     except ValueError as e:
         return jsonify(e)
@@ -20,7 +20,9 @@ def insert_user():
 
 @app.route('/messages', methods=['GET'])
 def get_messages():
-    messages = chat_DAL.get_messages()
+    roomnumber = request.args.get('room_number')
+    print(roomnumber)
+    messages = chat_DAL.get_messages(int(roomnumber))
     return jsonify(messages)
 
 @app.route('/messages'
