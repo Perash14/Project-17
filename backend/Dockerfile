@@ -30,6 +30,10 @@ RUN adduser \
     --uid "${UID}" \
     appuser
 
+RUN apt-get update \
+    && apt-get -y install libpq-dev gcc \
+    && pip install psycopg2
+
 # Download dependencies as a separate step to take advantage of Docker's caching.
 # Leverage a cache mount to /root/.cache/pip to speed up subsequent builds.
 # Leverage a bind mount to requirements.txt to avoid having to copy them into
@@ -45,7 +49,7 @@ USER appuser
 COPY . .
 
 # Expose the port that the application listens on.
-EXPOSE 5000
+EXPOSE 8000
 
 # Run the application.
-CMD gunicorn 'app:app' --bind=0.0.0.0:5000
+CMD gunicorn 'flask-app:app' --bind=0.0.0.0:8000

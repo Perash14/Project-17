@@ -50,4 +50,4 @@ EXPOSE 8000
 ENV CHAT_API_BASE_URL=http://host.docker.internal:5000
 
 # Run the application.
-CMD gunicorn 'app:main_loop()' --bind=0.0.0.0:8000
+CMD gunicorn 'app:start_client()' --bind=0.0.0.0:8000
