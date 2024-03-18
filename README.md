@@ -15,4 +15,4 @@ Milestone 4:
 Complete.
 
 Milestone 5: 
-Current status: Everything is built and working, currently in process of integrating new client and server created for this milestone into docker containers, running into error when trying to run docker compose up --build: "4.541       Error: pg_config executable not found", some sort of psycopg2 error when using docker, hit time limit when debugging this error.
+Complete.
