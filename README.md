@@ -16,3 +16,4 @@ Complete.
 
 Milestone 5: 
 Complete.
+Status : Everything is built and working, new client and server files created for this milestone require integration into docker containers.
