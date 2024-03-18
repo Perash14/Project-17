@@ -3,16 +3,16 @@
 Milestone 1:
 Example post request for milestone 1:
 1. curl --header "Content-Type: application/json" --request POST --data '{"text":"hello world! "}' http://localhost:5000/messages
-Complete
+Complete.
 
 Milestone 2: 
-Complete
+Complete.
 
 Milestone 3: 
-Complete
+Complete.
 
 Milestone 4: 
-Complete
+Complete.
 
 Milestone 5: 
-Complete
+Complete but server and client are not containerized in Docker containers.
