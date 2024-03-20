@@ -33,3 +33,12 @@ Room 11 -
 <img width="698" alt="15" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/7ea11d43-21ad-422b-a481-212fa9a3d747">
 <img width="692" alt="16" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/cf4c0e17-606b-4d66-a85b-a7c87e32fb75">
 <img width="689" alt="17" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/f54590d2-7756-419b-bfd0-364b369416fe">
+
+
+Database:
+Users table -
+<img width="316" alt="18" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/7fdfa601-7e81-4748-87f8-b84b6d4b889d">
+
+
+Messages Table -
+<img width="347" alt="19" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/ce7f90cc-c665-4ddf-bc6e-3f8bdb539bef">
