@@ -22,7 +22,7 @@ Status : Everything is built and working, new client and server files created fo
 Chat rooms which support multiple clients connecting per room & show ealier conversations in room on connect, built similarly in earlier commits using the rest framework, switched to websocket api before final commit:
 Technologies: Python & Flask(Backend), Python & GitBash(Client), PostgreSQL(Database).
 
-Room examples:
+Room examples:                                                                                                                                                                              
 Room 4 -                                                                                                                                                                              
 <img width="694" alt="11" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/5963652e-f5d9-45eb-91c6-f3ae8753d3ce">
 <img width="689" alt="12" src="https://github.com/Perash14/Backend-Engineering-Project/assets/62203954/7e2bd9b3-8617-4856-ac9e-cd6708ab1f96">
