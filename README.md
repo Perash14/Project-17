@@ -1,4 +1,4 @@
-# Backend Engineering Project
+# Chat rooms
 
 
 Chat rooms which support multiple clients connecting per room & show ealier conversations in room on connect, built similarly in earlier commits using the rest framework, switched to websocket api before final commit:
