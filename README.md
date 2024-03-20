@@ -1,23 +1,5 @@
 # Backend Engineering Project
 
-Milestone 1:
-Example post request for milestone 1:
-1. curl --header "Content-Type: application/json" --request POST --data '{"text":"hello world! "}' http://localhost:5000/messages
-Complete.
-
-Milestone 2: 
-Complete.
-
-Milestone 3: 
-Complete.
-
-Milestone 4: 
-Complete.
-
-Milestone 5: 
-Complete.
-Status : Everything is built and working, new client and server files created for this milestone require integration into docker containers.
-
 
 Chat rooms which support multiple clients connecting per room & show ealier conversations in room on connect, built similarly in earlier commits using the rest framework, switched to websocket api before final commit:
 Technologies: Python & Flask(Backend), Python & GitBash(Client), PostgreSQL(Database).
