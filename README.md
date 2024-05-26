@@ -1,8 +1,8 @@
 # Chat rooms
 
 
-Chat rooms which support multiple clients connecting per room & show ealier conversations in room on connect, built similarly in earlier commits using the rest framework, switched to websocket api before final commit:
-Technologies: Python & Flask(Backend), Python & GitBash(Client), PostgreSQL(Database).
+Chat rooms which support multiple clients connecting per room & show ealier conversations in room on connect, built similarly in earlier commits using the rest framework, switched to websocket api before final commit(Had some help):
+Technologies: Python & Flask(Backend), Python & GitBash(Client), PostgreSQL(Database))
 
 Room examples:                                                                                                                                                                              
 Room 4 -                                                                                                                                                                              
